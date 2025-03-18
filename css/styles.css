@@ -10,6 +10,7 @@
   --lightblue: #cadbf8;
   --common-font: Poppins;
 }
+
 /* BASIC FORMATTING */
 html {
   box-sizing: border-box;
@@ -25,30 +26,31 @@ img {
 }
 
 body {
-  font-family: Poppins;
+  font-family: var(--common-font);
   font-size: 1.125rem;
-  color: black;
-  background-color: #063270;
-  margin: 0;
-  padding: 0;
+  color: var(--black);
+  background-color: var(--Catalina);
+  margin: center;
+  padding: 2rem;
+  max-width: 1200px;
 }
 
 .wrapper {
-  font-family: Poppins;
+  font-family: var(--common-font);
   max-width: 1200px;
   padding: 0;
   margin: 0 auto;
 }
 
 main {
-  background-color: white;
+  background-color: var(--white);
   padding: 4rem;
   text-align: center;
-  border-bottom: 5px solid #ffd034;
-  border-top: 5px solid #ffd034;
+  border-bottom: 5px solid var(--Sunglow);
+  border-top: 5px solid var(--Sunglow);
 }
 header {
-  color: white;
+  color: var(--white);
   text-transform: uppercase;
   font-weight: normal;
   display: flex;
@@ -60,7 +62,26 @@ header {
 h1 {
   font-weight: 300;
 }
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  gap 1rem;
+  justify-content: center;
+  display: inline-block;
+}
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  
+}
 
+h2 {
+  text-transform: uppercase;
+  text-decoration: none;
+}
 .child {
   border: 2px solid #af3702;
   background-color: #ffe8de;
@@ -70,6 +91,9 @@ h1 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1rem;
+}
+
+.header {
 }
 
 @media (min-width: 700px) {
