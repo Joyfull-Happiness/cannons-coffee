@@ -23,13 +23,12 @@ html {
 }
 .container {
   max-width: 1200px;
-  margin: center;
+  margin: auto;
 }
 img {
   max-width: 100%;
 }
 main {
-  text-align: left;
   border-bottom: 5px solid var(--Sunglow);
   border-top: 5px solid var(--Sunglow);
 }
@@ -72,13 +71,6 @@ body {
   background-color: var(--Catalina);
 }
 
-.wrapper {
-  font-family: var(--common-font);
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: var(--lightblue);
-}
-
 h1 {
   font-weight: 300;
 }
@@ -99,7 +91,7 @@ p {
 .parentone {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  /* align-items: center; */
   gap: 1rem;
   padding: 0.5rem;
   background-color: var(--white);
@@ -107,9 +99,7 @@ p {
 .child {
   text-align: left;
 }
-.child img {
-  margin: auto;
-}
+
 .greenbutton {
   background-color: var(--vegan);
   color: var(--white);
@@ -152,8 +142,6 @@ footer {
 
 @media (min-width: 700px) {
   .parentone {
-    gap: 1rem;
-    margin: 0 auto;
     padding: 0;
     padding-left: 1rem;
   }
@@ -170,8 +158,8 @@ footer {
 
 @media (min-width: 900px) {
   .parentone {
-    gap: 1rem;
-    margin: 0 auto;
+    text-align: left;
+    align-items: center;
     padding: 0;
   }
   .parenttwo {
@@ -179,8 +167,5 @@ footer {
   }
   header {
     justify-content: space-between;
-  }
-  .parentone {
-    margin: auto;
   }
 }
