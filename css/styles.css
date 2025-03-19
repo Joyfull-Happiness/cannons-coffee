@@ -107,7 +107,9 @@ p {
 .child {
   text-align: left;
 }
-
+.child img {
+  margin: auto;
+}
 .greenbutton {
   background-color: var(--vegan);
   color: var(--white);
@@ -142,24 +144,36 @@ p {
   text-transform: uppercase;
 }
 footer {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+  /* align-items: center; */
   color: var(--white);
   padding-top: 1rem;
 }
 
 @media (min-width: 700px) {
+  .parentone {
+    gap: 1rem;
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 1rem;
+  }
   .parenttwo {
     grid-template-columns: 1fr 1fr;
   }
   .logo {
     margin: 0;
   }
+  footer {
+    text-align: center;
+  }
 }
 
 @media (min-width: 900px) {
+  .parentone {
+    gap: 1rem;
+    margin: 0 auto;
+    padding: 0;
+  }
   .parenttwo {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
