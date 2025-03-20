@@ -133,6 +133,20 @@ p {
   text-decoration: none;
   text-transform: uppercase;
 }
+
+.parentthree {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--lightblue);
+  gap: 1rem;
+  padding: 1rem;
+}
+.aboutcard img {
+  border-radius: var(--radius);
+}
+.aboutcard {
+  background-color: var(--lightblue);
+}
 footer {
   text-align: center;
   /* align-items: center; */
@@ -147,6 +161,10 @@ footer {
   }
   .parenttwo {
     grid-template-columns: 1fr 1fr;
+  }
+  .parentthree {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
   }
   .logo {
     margin: 0;
