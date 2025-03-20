@@ -133,7 +133,13 @@ p {
   text-decoration: none;
   text-transform: uppercase;
 }
-
+.aboutcoffee {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+}
 .parentthree {
   display: grid;
   grid-template-columns: 1fr;
@@ -146,6 +152,8 @@ p {
 }
 .aboutcard {
   background-color: var(--lightblue);
+  justify-content: space-around;
+  align-items: center;
 }
 footer {
   text-align: center;
