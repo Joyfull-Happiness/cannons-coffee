@@ -144,8 +144,7 @@ p {
   border: solid 0.25rem var(--Sunglow);
   margin: 0;
   padding: 3rem;
-  padding-top: 0;
-  -webkit-text-stroke: 1px #000;
+  padding-top: 1;
 }
 .parentthree {
   display: grid;
