@@ -140,7 +140,7 @@ p {
   font-weight: 600;
   font-size: 2rem;
   color: var(--white);
-  background-color: var(--Catalina);
+  background-color: var(--Bluetiful);
   border: solid 0.25rem var(--Sunglow);
   margin: 0;
 }
@@ -183,6 +183,9 @@ footer {
     grid-column: 1/3;
     justify-items: center;
     flex-wrap: wrap;
+  }
+  .aboutcard {
+    justify-content: center;
   }
   .logo {
     margin: 0;
