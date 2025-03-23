@@ -160,6 +160,9 @@ p {
   justify-content: space-around;
   align-items: center;
 }
+.aboutcard h3 {
+  font-weight: 700;
+}
 footer {
   text-align: center;
   /* align-items: center; */
