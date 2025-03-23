@@ -157,7 +157,7 @@ p {
 }
 .aboutcard {
   background-color: var(--lightblue);
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .aboutcard h3 {
