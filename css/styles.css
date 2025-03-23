@@ -141,7 +141,7 @@ p {
   font-size: 2rem;
   color: var(--white);
   background-color: var(--Bluetiful);
-  border: solid 0.25rem var(--Sunglow);
+  border: double 1rem var(--Sunglow);
   margin: 0;
   padding: 3rem;
 }
