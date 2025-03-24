@@ -97,7 +97,7 @@ p {
   background-color: var(--white);
 }
 .child {
-  text-align: right;
+  text-align: left;
 }
 
 .greenbutton {
