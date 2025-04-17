@@ -17,7 +17,7 @@ function onFormSubmit() {
   let emailCart = dataObject.emailCart;
   let passwordCart = dataObject.passwordCart;
 
-  let messageCart = `Welcome ${name}! You are loged in!`;
+  let messageCart = `Welcome ${nameCart}! You are loged in!`;
 
   console.log("first message to user:", messageCart);
 
