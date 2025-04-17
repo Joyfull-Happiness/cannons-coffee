@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="container">
+    <div class="containerCart">
       <header>
         <div class="logo">
           <a
@@ -24,74 +24,51 @@
             </li>
             <li>
               <a href="contact.html" target="_blank">Contact</a>
-              <li>
-                <a href="cart.html" target="_blank">cart</a>
-              </li>
+            </li>
+            <li>
+              <a href="cart.html" target="_blank">cart</a>
             </li>
           </ul>
         </nav>
       </header>
       <main class="parentone">
-        <h2>Contact Cannons Coffee</h2>
+        <h2>Cannons Coffee User Login</h2>
         <p>Coming Soon!</p>
 
-        <form class="parentfour">
+        <form class="parentCart">
           <div class="name">
-            <label for="name">Name:</label>
+            <label for="nameCart">Name:</label>
             <input
               type="text"
-              id="name"
-              name="name"
+              id="nameCart"
+              name="nameCart"
               placeholder="Asia"
               required
             />
           </div>
 
           <div class="email">
-            <label for="email">Email:</label>
+            <label for="emailCart">Email:</label>
             <input
-              type="email"
-              id="email"
-              name="email"
+              type="emailCart"
+              id="emailCart"
+              name="passwordCart"
               placeholder="Asia@gmail.com"
               required
             />
           </div>
 
-          <div class="phone">
-            <label for="phone">Phone Number: </label>
+          <div class="password">
+            <label for="passwordCart">Password: </label>
             <input
-              type="phone"
-              id="phone"
-              name="phone"
-              placeholder="123-456-789"
+              type="passwordCart"
+              id="passwordCart"
+              name="passwordCart"
+              placeholder="password"
               required
-              maxlength="13"
+              minlength="4"
             />
           </div>
-
-          <div class="origin">
-            <label for="origin">Coffee Origin</label>
-            <select id="origin" name="origin" required>
-              <option value="">--Please choose an origin--</option>
-              <option vlaue="Trinidad">Trinidad</option>
-              <option value="South Africa">South Africa</option>
-              <option value="Costa Rica">Costa Rica</option>
-            </select>
-          </div>
-
-          <fieldset>
-            <legend>Please choose one:</legend>
-
-            <input type="radio" id="buying" name="radio" required />
-            <label for="buying">Buying Coffee</label>
-
-            <input type="radio" id="employment" name="radio" required />
-            <label for="employment">Employment</label>
-          </fieldset>
-
-          <label for="comment">Any Comments?</label><br>
-	<textarea id="comment" name="comment" rows="4" cols="40"></textarea><br><br>
 
           <button type="submit">submit</button>
         </form>
@@ -104,6 +81,6 @@
         <p>&copy; 2024 Cannons Coffee. All Rights Reserved</p>
       </footer>
     </div>
-    <script src="js/custom.js"></script>
+    <script src="js/cart.js"></script>
   </body>
 </html>
