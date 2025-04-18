@@ -168,6 +168,9 @@ p {
 
 /* below is the css for Cart and contact pages */
 
+.continer {
+  align-items: center;
+}
 form {
   max-width: 400px;
   margin: 40px auto;
