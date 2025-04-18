@@ -171,6 +171,9 @@ p {
 .continer {
   align-items: center;
 }
+.parentfour {
+  align-items: center;
+}
 form {
   max-width: 400px;
   margin: 40px auto;
