@@ -171,9 +171,17 @@ p {
 .continer {
   align-items: center;
 }
-.parentfour {
+.parentfour,
+.contactmain {
+  display: grid;
+  /* align-items: center; */
+  gap: 1rem;
+  padding: 0.5rem;
+  background-color: var(--white);
   align-items: center;
+  text-align: center;
 }
+
 form {
   max-width: 400px;
   margin: 40px auto;
