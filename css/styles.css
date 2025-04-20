@@ -172,11 +172,11 @@ p {
   align-items: center;
 }
 .parentfour,
-.contactmain {
+.contactmain,
+.parentCart {
   display: grid;
-  /* align-items: center; */
   gap: 1rem;
-  padding: 0.5rem;
+  padding: 4rem;
   background-color: var(--white);
   align-items: center;
   text-align: center;
@@ -185,7 +185,6 @@ p {
 form {
   max-width: 400px;
   margin: 40px auto;
-  padding: 20px;
   background: #f9f9f9;
   border-radius: 10px;
   font-family: Arial, sans-serif;
