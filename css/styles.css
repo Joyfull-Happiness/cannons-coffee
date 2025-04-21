@@ -108,6 +108,7 @@ p {
   border-radius: var(--radius);
   text-decoration: none;
   text-transform: uppercase;
+  transition: background-color 0.3s ease;
 }
 
 .ourcoffee {
@@ -132,6 +133,7 @@ p {
   border-radius: var(--radius);
   text-decoration: none;
   text-transform: uppercase;
+  transition: background-color 0.3s ease;
 }
 .aboutcoffee {
   display: grid;
@@ -235,6 +237,7 @@ button {
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
