@@ -202,7 +202,10 @@ label {
 
 input[type="text"],
 input[type="email"],
+input[type="phone"],
 select,
+input[type="emailCart"],
+input[type="passwordCart"],
 textarea {
   width: 100%;
   padding: 8px;
