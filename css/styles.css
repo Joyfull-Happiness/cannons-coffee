@@ -188,9 +188,9 @@ form {
   max-width: 400px;
   margin: 40px auto;
   background: #f9f9f9;
-  border-radius: 10px;
   font-family: Arial, sans-serif;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: solid 0.4rem var(--Catalina);
 }
 
 label {
@@ -210,6 +210,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+  border: solid 0.25rem var(--Sunglow);
 }
 
 fieldset {
